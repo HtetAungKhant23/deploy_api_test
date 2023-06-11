@@ -39,7 +39,7 @@ const dbConnect = async () => {
         );
         if (connect) {
             console.log('connected DB');
-            app.listen(process.env.PORT);
+            app.listen(5000);
             console.log('server is running');
         }
     } catch (err) {
